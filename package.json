@@ -1,0 +1,24 @@
+{
+    "name": "x-snc-issue-repoting",
+    "version": "1.0.0",
+    "description": "report issue ",
+    "license": "UNLICENSED",
+    "scripts": {
+        "build": "now-sdk build",
+        "deploy": "now-sdk install",
+        "transform": "now-sdk transform",
+        "types": "now-sdk dependencies"
+    },
+    "dependencies": {
+
+        "lodash.snakecase": "4.1.1"
+        
+        },
+    "devDependencies": {
+        "@types/lodash.snakecase": "4.1.1",
+        "@servicenow/sdk": "3.0.2",
+        "@servicenow/glide": "26.0.1",
+        "eslint": "8.50.0",
+        "@servicenow/eslint-plugin-sdk-app-plugin": "3.0.2"
+    }
+}
